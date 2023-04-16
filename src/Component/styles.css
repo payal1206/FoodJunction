@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hove {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hove:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.cd {
+  border-radius: 16px;
+  margin-top: 20px;
+  height: 16rem;
+}
+
+.upper_data h4 {
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.849);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.upper_data span {
+  background-color: rgb(36, 150, 63);
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 1px;
+  width: 45px;
+}
+
+.lower_data h5 {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.lower_data span {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.extra {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.449);
+}
+
+.last_data .limg {
+  width: 18px;
+}
+
+.last_data p {
+  font-size: 14px;
+  margin-top: 18px;
+  letter-spacing: 0.2px;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.last_data .laimg {
+  width: 45px;
+}
+
+@media (max-width: 600px) {
+  .con {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last_data p {
+    font-size: 12px;
+  }
+  .zomato {
+    margin-top: 12px;
+    position: none;
+  }
+}
+#head-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: "red";
+}
+#dropdown {
+  display: block;
+  background-color: "red";
+}
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}

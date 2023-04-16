@@ -1,0 +1,363 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.form {
+  padding: 7%;
+  background-size: cover;
+}
+.hello {
+  outline: solid;
+}
+.header {
+  height: 400px;
+  overflow: hidden;
+  /* opacity: 0.8; */
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("./bg.jpg");
+}
+#combo-box-demo {
+  background-color: white;
+}
+#search-food {
+  width: 400px;
+  height: 40px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hove {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hove:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.cd {
+  border-radius: 16px;
+  margin-top: 20px;
+  height: 16rem;
+}
+
+.upper_data h4 {
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.849);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.upper_data span {
+  background-color: rgb(36, 150, 63);
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 1px;
+  width: 45px;
+}
+
+.lower_data h5 {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.lower_data span {
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.extra {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.449);
+}
+
+.last_data .limg {
+  width: 18px;
+}
+
+.last_data p {
+  font-size: 14px;
+  margin-top: 18px;
+  letter-spacing: 0.2px;
+  color: rgba(17, 17, 17, 0.849);
+}
+
+.last_data .laimg {
+  width: 45px;
+}
+
+@media (max-width: 600px) {
+  .con {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last_data p {
+    font-size: 12px;
+  }
+  .zomato {
+    margin-top: 12px;
+    position: none;
+  }
+}
+
+#dropdown {
+  width: 406px;
+  overflow-wrap: break-word;
+  background-color: white;
+}
+
+#head-header {
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#heading {
+  justify-content: flex-end;
+}
+#heading ul {
+  list-style: none;
+  display: flex;
+}
+#heading a {
+  text-decoration: none;
+  color: black;
+}
+
+#food-item {
+  border: 2px solid;
+  padding: 10px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+#food-item img {
+  width: 100px;
+  height: 100px;
+}
+#food-details {
+  /* background-color: green; */
+  width: 250px;
+}
+
+#food-search-data {
+  padding: 5px;
+}
+
+#detail {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#cuisine-detail {
+  /* background-color: saddlebrown; */
+}
+/* #card {
+  background-color: royalblue;
+  height: 150px;
+  padding: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+} */
+
+/* Product Card */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-card {
+  margin-top: 50px;
+  width: 90%;
+  height: auto;
+  position: relative;
+  height: auto;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin-left: 0px;
+  background: #fafafa;
+  margin-bottom: 40px;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.product-tumb img {
+  max-width: 65%;
+  max-height: 65%;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-catagory {
+  display: block;
+  font-size: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  height: 20px;
+  display: block;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #363636;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #fbb72c;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-price {
+  font-size: 13px;
+  /* // color: #fbb72c; */
+  font-weight: bolder;
+  display: flex;
+  /* // background-color: "brown"; */
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 0px !important;
+}
+
+.product-links a:hover {
+  color: #fbb72c;
+}
+
+.stars {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.fa {
+  color: #f7c01b;
+}
+/* .reviews { */
+/*  
+
+    > li {
+      display: inline-block;
+
+    }
+  } */
+
+/* > span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #555;
+  } 
+/* } */
+
+.brand {
+  display: flex;
+}
+.brand p {
+  white-space: nowrap;
+  /* // font-size: 0.8vw; */
+  font-size: 13px;
+  margin: 0px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: flex-end;
+  /* // background-color: "red" */
+}
+
+.row2 {
+  width: 80%;
+  position: relative;
+  left: 18%;
+  display: flex;
+  justify-content: flex-end;
+}
+.row3 {
+  width: 80%;
+  position: relative;
+  left: 25%;
+  display: flex;
+  justify-content: flex-end;
+  /* // background-color: greenyellow; */
+}
+
+/* // @media only screen and (max-width: 854px) {
+//   .brand p {
+//     font-size: 2vw;
+//   }
+//   .product-tumb {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 120px;
+//   }
+// } */
+
+/* // min width
+// when screen gets larger than this */
